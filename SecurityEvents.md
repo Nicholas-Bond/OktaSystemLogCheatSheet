@@ -36,3 +36,10 @@
 |eventType eq "system.org.rate_limit.violation"|Hitting the rate limit on requests|
 |eventType eq "user.mfa.factor.deactivate"|Removed MFA factor from user|
 |eventType eq "user.mfa.factor.reset_all"|Remove all MFA factors from user|
+
+## OIG Events
+
+|EventType Filter|Notes|
+|------------- |-------------|
+|eventType eq "access.request.create"|When user creates an access request|
+|eventType eq "governance.principal.settings.update"|When an Okta admin adds a delegate to a user|
