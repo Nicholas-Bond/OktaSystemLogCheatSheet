@@ -43,3 +43,9 @@
 |------------- |-------------|
 |eventType eq "access.request.create"|When user creates an access request|
 |eventType eq "governance.principal.settings.update"|When an Okta admin adds a delegate to a user|
+|eventType eq "access.request.condition.activate"|When an Okta admin enables an access request|
+|eventType eq "access.request.condition.deactivate"|When an Okta admin disables an access request|
+|eventType sw "access.request.condition"|Any access request condition changes|
+
+
+
