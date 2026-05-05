@@ -5,6 +5,7 @@
 |EventType Filter|Notes|
 |------------- |-------------|
 |eventType eq "user.session.start"|User logging in|
+|eventType eq "user.session.start" and outcome.reason eq "VERIFICATION_ERROR"|User login but with unknown Okta account|
 |eventType eq "user.session.end"|User logging out|
 |eventType eq "policy.evaluate_sign_on"|Sign in policy evaluation|
 |eventType eq "user.account.lock"|Okta user locked out|
