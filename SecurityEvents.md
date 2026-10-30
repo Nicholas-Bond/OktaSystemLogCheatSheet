@@ -27,6 +27,8 @@
 |eventType eq "application.user_membership.add"|Adding user to application membership|
 |eventType eq "group.application_assignment.add"|Add assigned application to group|
 |eventType eq "policy.lifecycle.create"|Creation of a new Okta Policy|
+|eventType eq "policy.rule.activate""|Activate Group rule|
+|eventType eq "policy.rule.deactivate""|Deactivate Group rule|
 |eventType eq "application.lifecycle.create"|New Application created|
 |eventType eq "user.lifecycle.activate"|New Okta user|
 |eventType eq "application.provision.user.push"|Assign application to user|
